@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: #ccc;
+}
+
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#credentials{
+	margin: 0 0 30px;
+}
+
+#sites{
+	margin: 20px 0 30px;
+	float: right;
+	width: 280px;
+}
+
+#sites label{
+	display: block;
+}
+
+#btn_upload{
+	font-size: 13px;
+    height: 30px;
+    margin: 30px 0;
+    width: 130px;
+}
+
+#file_list{
+	width: 600px;
+	height: 140px;
+	float: left;
+}
+
+#txt_file_list{
+	width: 100%;
+	height: 190px;
+}
+
+#txt_local_root_path,
+#txt_server_root_path{
+	width: 260px;
+}
+
+#stats{
+	padding: 20px;
+	margin: 0 0 20px;
+	width: 850px;
+	height: 400px;
+	overflow: auto;
+	background-color: #333;
+}
+
+#stats .site{
+	background-color: green;
+    color: white;
+    margin: 30px 0 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#stats .start{
+	color: yellow;
+}
+
+#stats .finish{
+	color: green;
+}
+
+#stats .error{
+	color: red;
+}
+
+#stats .msg{
+	color: white;
+}
